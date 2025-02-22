@@ -89,14 +89,36 @@ figcaption{
     border-top: 1px solid black;
     color: transparent;    
     user-select: none;
-    margin-right: 20px;
-    padding: 5px;
+    padding: auto;
+    height: 1px;
+    
 }
 .threeStripes{
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 32px;
+    width: 32px;
+    overflow: hidden;
+    border: 2px solid black;
     border-radius: 50%;
+    justify-content: center;
     align-items: center;
+    margin-right: 20px;
+    gap: 6px;
+    transition: 0.1s;
 }
+.threeStripes:hover{
+    background-color:  #0d9590;
+}
+.threeStripes:active{
+    background-color: #c48d9d;
+}
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 .comfortaa{
     font-family: "Comfortaa", sans-serif;
     font-weight: 400;
