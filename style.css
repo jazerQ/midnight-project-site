@@ -246,8 +246,72 @@ main{
     position: relative;
     top: 100px;
 }
+.feedbackLabel{ 
+    font-size: 32px;
+    text-align: center;
+}
+/* Общий стиль формы */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #0d9590;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+/* Стили для подписей */
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Поля ввода */
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Эффект при фокусе */
+input:focus, textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* Кнопка отправки */
+#myForm button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Эффект при наведении */
+#myForm button:hover {
+    background: #0056b3;
+}
+
+
+.formToBuy{
+    margin-top: 100px;
+}
 p{
-    font-size: 23px;
     font-family: "Comfortaa", sans-serif;
 }
 a{
